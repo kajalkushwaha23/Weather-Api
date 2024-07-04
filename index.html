@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="
+            Enter your city">
+            <button><img src ="images/search.png"></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+        
+        <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+            <source src="vid.mp4" type="video/mp4">
+          </video>
+
+        <div class="weather1">
+            <img src="images/cloudy.png" class="cloud_icon">
+            <h1 class="temp">20°c</h1>
+            <h4 class="weath_type">Cloudy</h4>
+            <h2 class="city">Delhi</h2>
+
+        </div>
+
+        <div class="weather2">
+            <div class="first">
+                <img src="images/humidity.png">
+                <div class="humidity">
+                    50%
+                 </div>
+                 <p>Humidity</p>
+            </div>
+
+            <div class="second">
+                <img src="images/wind.png">
+                <div class="wind">
+                    20 Km/h
+                 </div>
+                 <p>Wind Speed</p>
+            </div>
+        
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
